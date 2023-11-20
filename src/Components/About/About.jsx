@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import ProfileImg1 from "/public/Images/profile-img1.jpg";
 import ProfileImg2 from "/public/Images/profile-img2.jpg";
+import Resume from "/src/assets/Front-End resume 2023.pdf";
 
 function About() {
   return (
@@ -26,11 +27,7 @@ function About() {
               When I'm not on the computer, I enjoy discovering a new song,
               running, and Aquarium fish farming.
             </p>
-            <a
-              href="public/Images/Front-End resume 2023.jpg"
-              target="_blank"
-              className="resume-btn"
-            >
+            <a href={Resume} target="_blank" className="resume-btn">
               Check out my resume
             </a>
           </div>
