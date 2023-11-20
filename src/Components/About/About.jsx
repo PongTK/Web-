@@ -27,7 +27,7 @@ function About() {
               running, and Aquarium fish farming.
             </p>
             <a
-              href="public/Images/Front-End resume 2023.pdf"
+              href="public/Images/Front-End resume 2023.jpg"
               target="_blank"
               className="resume-btn"
             >

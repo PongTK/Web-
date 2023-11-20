@@ -25,7 +25,7 @@ function App() {
             </a>
           </li>
           <li className="contact-item">
-            <a href="public/Images/Front-End resume 2023.pdf" target="_blank">
+            <a href="public/Images/Front-End resume 2023.jpg" target="_blank">
               <img src={ResumeIcon} alt="resume-icon" id="resume-icon" />
             </a>
           </li>
