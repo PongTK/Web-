@@ -1,0 +1,178 @@
+.project-section{
+    display: block;
+    width: 100vw;
+    min-height: 700px;
+    height: auto;
+}
+
+.project-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 700px;
+    height: auto;
+    position: relative;
+    padding: 0 120px 100px 120px;
+    background: url(/public/Images/Blue-Galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+.project-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-heading{
+    text-align: left;
+    font-size: 3.8rem;
+    margin-bottom: 16px;
+    color: #e3e5fc;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.project-heading::after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 8px;
+    width: 360px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #e3e5fc;
+}
+
+.project-text{
+    text-align: left;
+    font-size: 1.3rem;
+    margin-left: 16px;
+}
+
+.project-items-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+
+.project-item-link{
+    width: 380px;
+	height: 220px;
+}
+
+.project-item{
+    position: relative;
+	width: 380px;
+	height: 220px;	
+	box-shadow: 0 6.7px 5.3px rgba(0, 0, 0, 0.03), 0 22.3px 17.9px rgba(0, 0, 0, 0.05), 0 100px 80px rgba(0, 0, 0, 0.07);
+	overflow: hidden;
+}
+
+#item1{
+    background: url('/public/Images/Proj-FxReplay.jpg') no-repeat;
+    background-position: 100% 100%;
+	background-size: 100%;
+}
+#item2{
+    background: url('/public/Images/Proj-randomFood.jpg') no-repeat;
+    background-position: 100% 100%;
+	background-size: 100%;
+}
+#item3{
+    background: url('/public/Images/Proj-PokedexAPI.jpg') no-repeat;
+    background-position: 100% 100%;
+	background-size: 100%;
+}
+
+figcaption{
+    position: absolute;
+    bottom: 0;
+    width: 380px;
+    height: 0px;
+    background-color: #112a3f;
+    padding-left: 30px;
+    padding-top: 10px;
+    transition-property: height;
+    transition-duration: 0.67s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-info h3{
+    text-align: left;
+    font-size: 1.3rem;
+    color: #e3e5fc;
+}
+
+.item-info span{
+    text-align: left;
+    font-size: 1rem;
+    color: #e3e5fc;
+}
+
+.project-item:hover figcaption{
+    height: 110px;
+}
+
+@media (max-width:1200px) {
+    .project-items-container{
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+    }
+}
+
+@media (max-width:1200px){
+    .project-wrapper{
+        padding-top: 80px;
+    }
+
+}
+
+@media (max-width:750px) {
+    .project-section{
+        min-height: 900px;
+        height: auto;
+    }
+
+    .project-wrapper{
+        height: 900px;
+        padding-top: 80px;
+    }
+
+    .project-heading{
+        font-size: 3.4rem;
+        margin-bottom: 0;
+    }
+
+    .project-heading::after{
+        display: none;
+    }
+
+    .project-text{font-size: 19px;}
+
+    .project-items-container{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+
+    .project-BG{
+        width: 100%;
+        height: 110%;
+    }
+}

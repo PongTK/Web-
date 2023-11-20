@@ -1,0 +1,124 @@
+.experience-section{
+    width: 100vw;
+    min-height: 777px;
+    height: auto;
+    padding: 0 120px 100px 120px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: url(/public/Images/Blue-Galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.exp-wrapper{
+    width: 100vw;
+    min-height: 777px;
+    height: auto;
+    align-content: center;
+    position: absolute;
+    padding: 80px 120px;
+}
+
+.exp-heading{
+    text-align: left;
+    font-size: 3.8rem;
+    margin-bottom: 16px;
+    color: #e3e5fc;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.exp-heading::after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 8px;
+    width: 360px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #e3e5fc;
+}
+
+.exp-inner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.exp-btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 16px;
+}
+
+.exp-btn-link{
+    text-align: left;
+    font-size: 1.3rem;
+    color: #e3e5fc;
+    width: 250px;
+    height: 46px;
+    padding: 8px 0 0 10px;
+    border-left: 1px solid #e3e5fc;
+}
+
+.exp-btn-link:hover {
+    color: #02b59a;
+    border-left: 2px solid #02b59a;
+}
+
+.exp-btn-wrapper a.active{
+    color: #02b59a;
+    border-left: 2px solid #02b59a;
+    background-color: #152f45b0;
+}
+
+.exp-job-panel{
+    padding: 12px;
+    height: auto;
+    padding-left: 70px;
+}
+
+.exp-job-panel:hover{
+    background-color: #152f45b0;
+}
+
+@media (max-width:1200px) {
+    .exp-inner{
+        flex-direction: column;
+    }
+
+    .exp-btn-wrapper{
+        flex-direction: row;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .exp-job-panel{
+        padding: 12px;
+    }
+}
+
+@media (max-width:750px) {
+    .exp-heading::after{
+        display: none;
+    }
+
+    .exp-heading{
+        font-size: 3.4rem;
+    }
+
+   .exp-btn-link{
+        display: flex;
+        font-size: 19px;
+        width: 159px;
+        height: 50px;
+        line-height: 20px;
+        align-items: center;
+   }
+}

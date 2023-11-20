@@ -1,0 +1,13 @@
+.footer-section{
+    width: 100vw;
+    height: 70px;
+    background-color: #112a3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    color: #e3e5fc;
+    font-size: 18px;
+}

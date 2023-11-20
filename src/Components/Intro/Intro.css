@@ -1,0 +1,67 @@
+.intro-section{
+    display: block;
+    width: 100vw;
+    min-height: 777px;
+    height: auto;
+    background: url(/public/Images/Blue-Galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.intro-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 777px;
+    position: relative;
+}
+
+.intro-content{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto 2rem;
+    width: 100%;
+    top: 30%;
+}
+
+.heading{
+    font-size: 6.2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: #e3e5fc;
+}
+
+.sub-heading{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #e3e5fc;
+}
+
+.sub-text{
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 0.5rem 0;
+    color: #e3e5fc;
+}
+
+.arrow-giphy{
+    margin-top: 5%;
+    rotate: 90deg;
+    width: 60px;
+}
+
+@media (max-width:750px) {
+    .heading{
+        font-size: 5.8rem;
+    }
+
+    .sub-heading, .sub-text{
+        font-size: 1.7rem;
+    }
+}

@@ -1,0 +1,168 @@
+.about-section{
+    display: block;
+    width: 100vw;
+    height: auto;
+    min-height: 777px;
+}
+
+.about-wrapper{
+    padding: 80px 120px;
+    background-color: #112a3f;
+    width: 100vw;
+    min-height: 777px;
+    height: auto;
+    align-content: center;
+    position: absolute;
+    z-index: 0;
+}
+
+.about-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-content{
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.about-heading{
+    text-align: left;
+    font-size: 3.8rem;
+    margin-bottom: 16px;
+    color: #e3e5fc;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about-heading::after{
+    content: "";
+    position: relative;
+    top: 8px;
+    width: 4.5em;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #e3e5fc;
+}
+
+.about-text{
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #e3e5fc;
+}
+
+.resume-btn{
+    position: relative;
+    margin-left: 12px;
+    margin-top: 12px;
+    width: 210px;
+    height: 48px;
+    color: #02b59a;
+    background: transparent;
+    border: 1px solid #02b59a;
+    padding: 10px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.resume-btn:hover {
+    top: -3px;
+    left: -3px;
+    box-shadow: 3px 3px #02b59a;
+    
+}
+
+.about-profile-card{
+    width: 340.8px;
+    height: 512px;
+    margin-right: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.profile-img-wrapper{
+    width: 340.8px;
+    height: 512px;
+    position: relative;
+}
+
+.profile-img1{
+    width: 340.8px;
+    height: 512px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.profile-img2{
+    width: 340.8px;
+    height: 512px;
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.profile-img-outline{
+    width: 340.8px;
+    height: 512px;
+    border: 3px solid #02b59a;
+    position: absolute;
+    display: block;
+    z-index: -1;
+    bottom: -14px;
+    right: -14px;
+}
+
+.profile-img-wrapper:hover .profile-img2 {
+    display: inline;
+}
+
+.profile-img-wrapper:hover .profile-img1, .profile-img2{
+    top: -2px;
+    left: -2px;
+}
+
+.profile-img-wrapper:hover .profile-img-outline{
+    bottom: -20px;
+    right: -20px;
+}
+
+@media (max-width:1200px) {
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-content{
+        width:auto
+    }
+
+    .about-profile-card{
+        display: none;
+    }
+    
+}
+
+@media (max-width:750px) {
+    .about-heading::after{
+        display: none;
+    }
+
+    .about-heading{
+        font-size: 3.4rem;
+    }
+
+    .about-text{
+        font-size: 19px;
+    }
+}
