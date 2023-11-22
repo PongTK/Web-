@@ -86,7 +86,7 @@
         display: none;
     }
 
-    .skill-text{font-size: 16.5px;}
+    .skill-text{font-size: 16px;}
 
     .skill-container{
         grid-template-columns: repeat(3, 1fr);

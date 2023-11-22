@@ -159,14 +159,30 @@
     }
 
     .about-wrapper{
-        padding: 80px 60px;
+        padding: 80px 50px;
     }
 
     .about-heading{
         font-size: 2.8rem;
+        margin-bottom: 10px;
     }
 
     .about-text{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .resume-btn{
+        margin-left: 12px;
+        margin-top: 5px;
+        width: 190px;
+        height: 45px;
+        color: #02b59a;
+        background: transparent;
+        border: 1px solid #02b59a;
+        padding: 8px 18px;
         font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
     }
 }

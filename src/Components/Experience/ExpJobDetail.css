@@ -42,10 +42,10 @@ ul li.exp-job-detail-text::before {
 
 @media (max-width:767px) {
     .exp-job-detail-heading{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     p.range, li{
-        font-size: 18px;
+        font-size: 15px;
     }
 }

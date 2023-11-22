@@ -58,10 +58,10 @@
 
 @media (max-width:767px) {
     .heading{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
     .sub-heading, .sub-text{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
