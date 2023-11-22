@@ -104,18 +104,22 @@
     }
 }
 
-@media (max-width:750px) {
+@media (max-width:767px) {
     .exp-heading::after{
         display: none;
     }
 
+    .exp-wrapper{
+        padding: 80px 50px;
+    }
+
     .exp-heading{
-        font-size: 3.4rem;
+        font-size: 2.1rem;
     }
 
    .exp-btn-link{
         display: flex;
-        font-size: 19px;
+        font-size: 16px;
         width: 159px;
         height: 50px;
         line-height: 20px;

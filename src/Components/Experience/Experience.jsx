@@ -20,7 +20,7 @@ function Experience() {
                 Super Bullish
               </NavLink>
               <NavLink exact to="/RCL" className="exp-btn-link">
-                Regional Container Lines
+                RCL
               </NavLink>
             </div>
             <div className="exp-job-panel">

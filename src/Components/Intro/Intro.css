@@ -56,9 +56,9 @@
     width: 60px;
 }
 
-@media (max-width:750px) {
+@media (max-width:767px) {
     .heading{
-        font-size: 5.8rem;
+        font-size: 4rem;
     }
 
     .sub-heading, .sub-text{

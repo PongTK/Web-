@@ -153,16 +153,20 @@
     
 }
 
-@media (max-width:750px) {
+@media (max-width:767px) {
     .about-heading::after{
         display: none;
     }
 
+    .about-wrapper{
+        padding: 80px 60px;
+    }
+
     .about-heading{
-        font-size: 3.4rem;
+        font-size: 2.8rem;
     }
 
     .about-text{
-        font-size: 19px;
+        font-size: 16px;
     }
 }

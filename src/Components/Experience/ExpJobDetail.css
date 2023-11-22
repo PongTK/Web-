@@ -40,12 +40,12 @@ ul li.exp-job-detail-text::before {
     margin-left: -1em;
 }
 
-@media (max-width:750px) {
+@media (max-width:767px) {
     .exp-job-detail-heading{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     p.range, li{
-        font-size: 19px;
+        font-size: 18px;
     }
 }
