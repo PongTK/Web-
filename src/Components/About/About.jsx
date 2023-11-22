@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import ProfileImg1 from "/public/Images/profile-img1.jpg";
 import ProfileImg2 from "/public/Images/profile-img2.jpg";
-import Resume from "/src/assets/Front End resume 2023.pdf";
+import Resume from "/src/assets/Front End Resume 2023.pdf";
 
 function About() {
   return (
