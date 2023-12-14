@@ -61,6 +61,24 @@ function Project() {
                 </figcaption>
               </figure>
             </a>
+            <a
+              href="https://e-commerce-tk-shop.vercel.app/"
+              target="_blank"
+              className="project-item-link"
+            >
+              <figure className="project-item" id="item4">
+                <figcaption>
+                  <div className="item-info">
+                    <h3>TK store eCommerce</h3>
+                    <span>
+                      Web app uses the fakestore API to handle cart data,
+                      <br /> storing infor in localStorage for a user-friendly
+                      exp
+                    </span>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
           </div>
         </div>
       </div>
