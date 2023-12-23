@@ -8,7 +8,7 @@ import Skills from "./Components/Skills/Skills";
 import GithubIcon from "/public/Images/github-icon.png";
 import LinkedInIcon from "/public/Images/linkedin-icon.png";
 import ResumeIcon from "/public/Images/resume-icon.png";
-import Resume from "/src/assets/Front End Resume 2023.pdf";
+import Resume from "/src/assets/Dev resume 2024.pdf";
 
 function App() {
   return (
